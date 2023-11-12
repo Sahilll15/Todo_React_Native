@@ -1,0 +1,32 @@
+# Ignore node_modules directory
+node_modules
+
+# Ignore environment configuration files
+.env
+
+# Ignore log files and error reports
+logs
+*.log
+npm-debug.log*
+
+# Ignore application specific configuration files
+config.js
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore temporary files
+*.tmp
+
+# Ignore Visual Studio Code settings
+.vscode
+
+# Ignore user-specific files
+.idea
+.DS_Store
+
+# Ignore package-lock.json for npm
+package-lock.json
+
+# Ignore Yarn lock file
+yarn.lock
