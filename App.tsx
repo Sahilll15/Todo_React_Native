@@ -139,9 +139,9 @@ const styles = StyleSheet.create({
     margin: 10,
   },
   checkBoxContainer: {
-    padding: 0, // Adjust padding to fit your design
+    padding: 0,
     backgroundColor: 'transparent',
-    borderWidth: 0, // Remove border
+    borderWidth: 0,
   },
 });
 
