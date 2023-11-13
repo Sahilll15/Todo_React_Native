@@ -17,7 +17,7 @@ const App = () => {
 
   const getTodos = async () => {
     try {
-      const response = await axios.get('http://10.0.2.2:4000/api/todos');
+      const response = await axios.get('http://192.168.0.103:4000/api/todos');
       console.log('Getting todos');
       console.log(response.data.data);
       setTodoList(response.data.data);
@@ -28,7 +28,7 @@ const App = () => {
 
   const addTodo = async (title, completed) => {
     try {
-      const response = await axios.post('http://10.0.2.2:4000/api/todos', {
+      const response = await axios.post('http://192.168.0.103:4000/api/todos', {
         title,
         completed,
       });

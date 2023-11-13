@@ -64,3 +64,28 @@ yarn-error.log
 
 # testing
 /coverage
+
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore Android build files
+android/app/build/
+
+# Ignore iOS build files
+ios/build/
+
+# Ignore logs and debugging output
+logs/
+*.log
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore environment configuration files (replace with actual filenames if needed)
+.env
+.env.local
+
+# Ignore package manager lock files
+package-lock.json
+yarn.lock
